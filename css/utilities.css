@@ -11,3 +11,7 @@
 .h100{
     height: 100px;
 }
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
