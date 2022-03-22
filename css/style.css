@@ -26,6 +26,16 @@ main #button button{
     margin-right: 5px;
 }
 
+#central-menu{
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#central-menu li{
+    display: inline-block;
+    margin-right: 10px;
+}
 /* FOOTER */
 footer{
     justify-content: space-between;
