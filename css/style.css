@@ -1,0 +1,33 @@
+/* MAIN */
+main{
+    height: calc(100vh - 100px);
+}
+
+aside{
+    width: 300px;
+    height: calc(100vh - 100px);
+}
+
+#central{
+    width: calc(100% - 300px);
+    overflow: auto;
+}
+
+main #button{
+    width: calc(100% - 300px);
+    position: fixed;
+    right: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main #button button{
+    padding: 20px;
+    margin-right: 5px;
+}
+
+/* FOOTER */
+footer{
+    justify-content: space-between;
+    align-items: center;
+}
