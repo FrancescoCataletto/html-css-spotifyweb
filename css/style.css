@@ -1,0 +1,33 @@
+/* MAIN */
+
+/* aside section */
+#left-column{
+    width: 300px;
+    height: calc(100vh - 100px);
+}
+
+/* upgrade-btn section */
+#upgrade-btn{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100vw - 300px);
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#upgrade-btn button{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 25px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(8, 11, 18);
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer{
+    justify-content: space-between;
+    align-items: center;
+}
