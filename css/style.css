@@ -11,8 +11,10 @@ aside{
 #central{
     width: calc(100% - 300px);
     overflow: auto;
+    padding-left: 15px;
 }
 
+/* button */
 main #button{
     width: calc(100% - 300px);
     position: fixed;
@@ -26,6 +28,7 @@ main #button button{
     margin-right: 5px;
 }
 
+/* top-menu */
 #central-menu{
     margin-top: 120px;
     text-align: center;
@@ -35,6 +38,16 @@ main #button button{
 #central-menu li{
     display: inline-block;
     margin-right: 10px;
+}
+
+/* first-div-music */
+#first-div-music .disc{
+    width: 200px;
+    margin-right: 15px;
+}
+
+#first-div-music img{
+    width: 100%;
 }
 /* FOOTER */
 footer{
