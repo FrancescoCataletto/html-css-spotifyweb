@@ -191,7 +191,7 @@ footer{
     text-align: center;
 }
 
-#progress-bar{
+.bar{
     border-radius: 5px;
     margin-bottom: 3px;
     height: 5px;
