@@ -140,4 +140,19 @@ footer{
         color: white;
     }
 
+    #side-bottom-nav span{
+        display: none;
+    }
+
+    #side-bottom-nav{
+        text-align: center;
+    }
+
+    #side-bottom-nav button{
+        margin-bottom: 20px;
+        background-color: rgb(162, 162, 162);
+        color: black;
+        border: none;
+        border-radius: 50%;
+    }
 }
