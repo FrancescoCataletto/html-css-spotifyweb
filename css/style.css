@@ -136,6 +136,11 @@ aside{
     margin-right: 10px;
 }
 
+#central-menu a{
+    color: rgb(119, 121, 126); 
+    font-weight: bold;
+}
+
 /* first-div-music */
 #div-music .disc{
     width: calc(100% / 6);
