@@ -61,3 +61,11 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
+#controller{
+    width: 40%;
+}
+
+#volume{
+    width: 230px;
+}
