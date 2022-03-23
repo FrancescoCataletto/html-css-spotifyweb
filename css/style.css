@@ -104,6 +104,12 @@ aside{
     color: white;
 }
 
+#central h3{
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* button */
 #button{
     width: calc(100% - 230px);
@@ -141,15 +147,23 @@ aside{
     font-weight: bold;
 }
 
-/* first-div-music */
+/* div-music */
 #div-music .disc{
     width: calc(100% / 6);
     padding-right: 10px;
 }
 
 #div-music img{
-    width: 100%;
+    width: 90%;
 }
+
+#div-music p, #div-music span{
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 /* FOOTER */
 footer{
     justify-content: space-between;

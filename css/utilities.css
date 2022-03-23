@@ -20,3 +20,12 @@
 .float-left{
     float: left;
 }
+
+.grey{
+    color: rgb(127, 129, 133);
+    font-weight: bold;
+}
+
+.p-bottom-20{
+    padding-bottom: 20px;
+}
