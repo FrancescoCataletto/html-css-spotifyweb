@@ -105,7 +105,7 @@ aside{
 }
 
 /* button */
-main #button{
+#button{
     width: calc(100% - 230px);
     position: fixed;
     right: 0;
@@ -114,9 +114,14 @@ main #button{
     background-color: rgba(8, 11, 18, 0.8);
 }
 
-main #button button{
-    padding: 20px;
+#button button{
+    padding: 10px 30px 10px 30px;
     margin-right: 5px;
+    border-radius: 25px;
+    background-color: rgba(8, 11, 18, 0.8);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
 }
 
 /* top-menu */
