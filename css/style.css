@@ -173,6 +173,29 @@ footer{
     height: 70px;
 }
 
+#controller button{
+    margin: 0 15px;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+#controller button, #volume button{
+    color: white;
+    background-color: rgb(40, 40, 40);
+    border: none;
+}
+
+#controller .fa-play{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#controller .bar{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #playing{
     width: 230px;
     height: 40px;
