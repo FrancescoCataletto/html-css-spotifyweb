@@ -198,7 +198,7 @@ footer{
 }
 
 #controller{
-    width: 40%;
+    width: calc(100% - 460px);
     text-align: center;
 }
 
@@ -235,7 +235,9 @@ footer{
 }
 
 #volume{
-    width: 230px;
+    width: 230px;    
+    text-align: right;
+    margin-right: 5px;
 }
 
 /* MEDIA SECTION */
@@ -252,6 +254,18 @@ footer{
     #div-music .disc{
         width: 50%;
         padding-right: 10px;
+    }
+
+    #playing{
+        width: 115px;
+    }
+
+    #controller{
+        width: calc(100% - 230px);
+    }
+
+    #volume{
+        width: 115px;
     }
 }
 @media all and (max-width: 419px){
