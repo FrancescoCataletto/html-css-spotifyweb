@@ -10,6 +10,10 @@ aside{
     color: white;
 }
 
+#small-logo{
+    display: none;
+}
+
 #side-top-nav{
     height: calc(100% - 70px);
 }
@@ -96,6 +100,9 @@ footer{
 @media all and (max-width: 419px){
     aside{
         width: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #central{
@@ -105,4 +112,32 @@ footer{
     main #button{
         width: calc(100% - 50px);
     }
+
+    #big-logo{
+        display: none;
+    }
+
+    #home-search-library span{
+        display: none;
+    }
+
+    #playlist{
+        display: none;
+    }
+
+    #small-logo{
+        display: block;
+        margin-top: 5px;
+    }
+
+    #home-search-library li{
+        margin-top: 5px;
+    }
+
+    #home-search-library button{
+        border: none;
+        background-color: black;
+        color: white;
+    }
+
 }
