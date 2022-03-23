@@ -8,10 +8,68 @@ aside{
     height: 100%;
     background-color: black;
     color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#big-logo{
+    width: 50%;
+    padding-bottom: 30px;
 }
 
 #small-logo{
     display: none;
+}
+
+#home-search-library{
+    margin-bottom: 20px;
+}
+
+#home-search-library li{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#home-search-library span{
+    padding-left: 5px;
+}
+
+#home-search-library a{
+    color: rgb(163, 163, 163);
+}
+
+#home-search-library button{
+    border: none;
+    background-color: black;
+    color: rgb(163, 163, 163);
+}
+
+#playlist li{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#playlist a{
+    color: rgb(163, 163, 163);
+}
+
+#playlist li:first-child{
+    font-weight: bold;
+    color: white;
+}
+
+#playlist-btn button{
+    background-color: black;
+    color: rgb(163, 163, 163);
+    border: none;
+}
+
+#playlist-btn .fa-plus{
+    margin-right: 5px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(163, 163, 163);
+    color: black;
 }
 
 #side-top-nav{
@@ -103,6 +161,8 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-left: 0;
+        padding-top: 5px;
     }
 
     #central{
@@ -137,7 +197,7 @@ footer{
     #home-search-library button{
         border: none;
         background-color: black;
-        color: white;
+        color: rgb(162, 162, 162);
     }
 
     #side-bottom-nav span{
