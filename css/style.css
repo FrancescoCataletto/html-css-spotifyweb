@@ -6,6 +6,8 @@ main{
 aside{
     width: 230px;
     height: 100%;
+    background-color: black;
+    color: white;
 }
 
 #side-top-nav{
@@ -19,6 +21,8 @@ aside{
     width: calc(100% - 230px);
     overflow: auto;
     padding-left: 15px;
+    background-color: rgb(20, 25, 34);
+    color: white;
 }
 
 /* button */
@@ -28,6 +32,7 @@ main #button{
     right: 0;
     justify-content: flex-end;
     align-items: center;
+    background-color: rgba(8, 11, 18, 0.8);
 }
 
 main #button button{
@@ -60,6 +65,8 @@ main #button button{
 footer{
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(40, 40, 40);
+    color: white;
 }
 
 #controller{
