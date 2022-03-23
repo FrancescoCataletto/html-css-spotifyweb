@@ -5,7 +5,14 @@ main{
 
 aside{
     width: 300px;
-    height: calc(100vh - 100px);
+    height: 100%;
+}
+
+#side-top-nav{
+    height: calc(100% - 70px);
+}
+#side-bottom-nav{
+    height: 70px;
 }
 
 #central{
