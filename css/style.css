@@ -145,6 +145,7 @@ aside{
     display: inline-block;
     margin-right: 10px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 #central-menu li div{
