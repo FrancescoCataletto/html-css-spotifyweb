@@ -263,6 +263,21 @@ footer{
     width: 230px;;
 }
 
+#artist-description{
+    padding-right: 70px;
+}
+
+#playing span{
+    color: rgb(163, 163, 163);
+    font-size: 12px;
+}
+
+#playing span:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
 #playing img{
     height: 100%;
     margin-right: 10px;
@@ -272,6 +287,10 @@ footer{
     background-color: rgb(40, 40, 40);
     color: rgb(129, 129, 129);
     border: none;
+}
+
+#playing button:hover{
+    color: white;
 }
 
 #controller{
