@@ -29,6 +29,7 @@ aside{
 #home-search-library li{
     margin-top: 5px;
     font-size: 12px;
+    position: relative;
 }
 
 #home-search-library span{
@@ -45,9 +46,44 @@ aside{
     color: rgb(163, 163, 163);
 }
 
+.border-lft{
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: rgb(186, 255, 50);
+    top: 0;
+    left: -10%;
+    display: none;
+}
+
+#home-search-library li:hover a, #home-search-library li:hover button{
+    color: white;
+}
+
+#home-search-library li:active .border-lft{
+    display: block;
+}
+
+#playlist li:hover a, #playlist li:hover button{
+    color: white;
+}
+
+#playlist-btn:hover i{
+    background-color: white;
+}
+
+#playlist li:active .border-lft{
+    display: block;
+}
+
+#side-bottom-nav button:hover{
+    color: white;
+}
+
 #playlist li{
     margin-top: 10px;
     font-size: 12px;
+    position: relative;
 }
 
 #playlist a{
@@ -148,7 +184,7 @@ aside{
     margin-bottom: 10px;
 }
 
-#central-menu li div{
+#central-menu .border-btm{
     position: absolute;
     margin-top: 5px;
     border-top: 2px solid rgb(185, 255, 48);
