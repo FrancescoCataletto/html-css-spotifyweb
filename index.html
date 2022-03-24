@@ -173,22 +173,25 @@
             </div>
         </div>
 
-        <div id="controller">
-            <div>
+        <div id="controller" class="flex">
+            <div class="flex control-btns">
                 <button><i class="fa-solid fa-shuffle"></i></button>
                 <button><i class="fa-solid fa-backward-step"></i></button>
                 <button><i class="fa-solid fa-play"></i></button>
                 <button><i class="fa-solid fa-forward-step"></i></button>
                 <button><i class="fa-solid fa-arrow-rotate-right"></i></button>
             </div>
-            <span>0:25</span><span class="bar"></span><span>4:35</span>
+            <div class="flex control-bar">
+                <span>0:25</span><div class="bar"></div><span>4:35</span>
+            </div>
+            
         </div>
 
-        <div id="volume">
+        <div id="volume" class="flex">
             <button><i class="fa-solid fa-bars"></i></button>
             <button><i class="fa-solid fa-desktop"></i></button>
             <button><i class="fa-solid fa-volume-high"></i></button>
-            <span class="bar"></span>
+            <div class="bar"></div>
         </div>
     </footer>
 

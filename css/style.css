@@ -178,7 +178,7 @@ footer{
     padding-left: 10px;
     justify-content: space-between;
     align-items: center;
-    width: 15%;
+    width: 230px;;
 }
 
 #playing img{
@@ -193,9 +193,9 @@ footer{
 }
 
 #controller{
+    flex-direction: column;
+    align-items: center;
     width: 60%;
-    text-align: center;
-    flex-shrink: 0;
 }
 
 #controller button{
@@ -216,25 +216,37 @@ footer{
     border-radius: 50%;
 }
 
-#controller .bar{
-    margin-left: 10px;
-    margin-right: 10px;
+#controller .control-btns{
+    width: 20%;
+    justify-content: space-around;
+}
+
+#controller .control-bar{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#controller .control-bar .bar{
+    margin: 0 10px;
 }
 
 .bar{
     border-radius: 5px;
-    margin-bottom: 3px;
     height: 5px;
-    width: 50%;
+    width: 60%;
     background-color: white;
     display: inline-block;
 }
 
 #volume{
-    width: 15%;     
+    width: 230px;    
     text-align: right;
     margin-right: 5px;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 
 /* MEDIA SECTION */
 
