@@ -144,6 +144,21 @@ aside{
 #central-menu li{
     display: inline-block;
     margin-right: 10px;
+    position: relative;
+}
+
+#central-menu li div{
+    position: absolute;
+    margin-top: 5px;
+    border-top: 2px solid rgb(185, 255, 48);
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    display: none;
+}
+
+#central-menu li:hover div{
+    display: block;
 }
 
 #central-menu a{
