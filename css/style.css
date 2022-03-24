@@ -204,20 +204,20 @@ aside{
 }
 
 /* div-music */
-#div-music .disc{
+.div-music .disc{
     width: calc(100% / 6);
     padding-right: 10px;
 }
 
-#div-music img{
+.div-music img{
     width: 100%;
 }
 
-#div-music .image-play{
+.div-music .image-play{
     position: relative;
 }
 
-#div-music .image-play div{
+.div-music .image-play div{
     position: absolute;
     width: 100%;
     height: 99%;
@@ -228,18 +228,26 @@ aside{
     opacity: 0;
 }
 
-#div-music .image-play div i{
+.div-music .image-play div i{
     padding: 10px;
     border: 2px solid white;
     border-radius: 50%;
 }
 
-#div-music .image-play div:hover{
+.div-music .image-play div:hover{
     opacity: 1;
     cursor: pointer;
 }
 
-#div-music p, #div-music span{
+.third .image-play img{
+    border-radius: 50%;
+}
+
+.div-music.third .image-play div{
+    border-radius: 50%;
+}
+
+.div-music p, .div-music span{
     text-align: center;
     display: block;
     padding-top: 5px;
@@ -400,7 +408,7 @@ footer{
 /* MEDIA SECTION */
 
 @media all and (max-width: 1024px){
-    #div-music .disc{
+    .div-music .disc{
         width: 25%;
         padding-right: 10px;
     }
@@ -408,7 +416,7 @@ footer{
 }
 
 @media all and (max-width: 767px){
-    #div-music .disc{
+    .div-music .disc{
         width: 50%;
         padding-right: 10px;
     }
