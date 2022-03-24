@@ -194,6 +194,10 @@ aside{
     display: none;
 }
 
+#central-menu li:hover a{
+    color: white;
+}
+
 #central-menu li:hover div{
     display: block;
 }
@@ -291,6 +295,7 @@ footer{
     height: 100%;
     margin-right: 10px;
     float: left;
+    vertical-align: middle;
 }
 
 #playing button{
@@ -332,14 +337,14 @@ footer{
 }
 
 #controller .control-btns{
-    width: 20%;
+    width: 30%;
     justify-content: space-around;
 }
 
 #controller .control-bar{
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 80%;
 }
 
 #controller .control-bar .bar{
@@ -422,6 +427,22 @@ footer{
         width: 50%;
         padding-right: 10px;
     }
+
+    #playing p{
+        font-size: 12px;
+    }
+
+    #playing span{
+        font-size: 10px;
+    }
+
+    #controller .control-bar{
+        width: 100%;
+    }
+
+    #controller .control-btns{
+        width: 50%;
+    }
 }
 @media all and (max-width: 419px){
     aside{
@@ -491,5 +512,41 @@ footer{
     
     #side-bottom-nav i{
         margin-right: 0;
+    }
+
+    #playing{
+        width: 115px;
+    }
+
+    #left-footer-img{
+        padding-top: 10px;
+    }
+
+    #playing img{
+        height: 70%;
+    }
+
+    #playing p{
+        font-size: 6px;
+    }
+
+    #playing span{
+        font-size: 6px;
+    }
+
+    #playing i{
+        font-size: 8px;
+    }
+
+    #volume{
+        width: 115px;
+    }
+
+    #volume i{
+        font-size: 10px;
+    }
+
+    #volume .bar{
+        width: 50%;
     }
 }
