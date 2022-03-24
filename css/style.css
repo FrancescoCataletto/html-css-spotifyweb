@@ -271,10 +271,6 @@ footer{
     width: 230px;;
 }
 
-#artist-description{
-    padding-right: 70px;
-}
-
 #playing span{
     color: rgb(163, 163, 163);
     font-size: 12px;
@@ -286,9 +282,15 @@ footer{
     text-decoration: underline;
 }
 
+#left-footer-img{
+    height: 40px;
+    width: 100%;
+}
+
 #playing img{
     height: 100%;
     margin-right: 10px;
+    float: left;
 }
 
 #playing button{
