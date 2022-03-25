@@ -80,6 +80,11 @@ aside{
     color: white;
 }
 
+#playlist-overflow{
+    overflow: auto;
+    height: 90%;
+}
+
 #playlist li{
     margin-top: 10px;
     font-size: 12px;
@@ -111,6 +116,7 @@ aside{
 
 #side-top-nav{
     height: calc(100% - 70px);
+    overflow: hidden;
 }
 #side-bottom-nav{
     height: 70px;
